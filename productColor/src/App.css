@@ -1,0 +1,82 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+ 
+
+}
+.container{
+
+  padding: 1em;
+  border-radius: 1em;
+  display:flex;
+}
+img{
+  height: 200px;
+  width:50%;
+  object-fit: cover;
+}
+
+
+.colors{
+  display: flex;
+  column-gap: 0.8em;
+  align-items: center;
+}
+.price{
+  display: flex;
+  justify-content: space-between;
+  margin: 1em;
+}
+
+p{
+  margin-left: 2em;
+  font-size: 15px;
+}
+#Red{
+  background-color: rgb(230, 19, 19);
+  border-radius: 50%;
+  height: 40px;
+}
+#Black{
+  background-color: black;
+  border-radius: 50%;
+  height: 40px;
+}
+#Orange{
+  background-color: orange;
+  border-radius: 50%;
+  height: 40px;
+}
+#Yellow{
+  background-color: yellow;
+  border-radius: 50%;
+  height: 40px;
+}
+#Green{
+  background-color: Green;
+  border-radius: 50%;
+  height: 40px;
+}
+#Blue{
+  background-color: blue;
+  border-radius: 50%;
+  height: 40px;
+}
+#Grey{
+  background-color: grey;
+  border-radius: 50%;
+  height: 40px;
+}
+#White{
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+}
+.main{
+  display: flex;
+  column-gap: 2em;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 1em;
+}
