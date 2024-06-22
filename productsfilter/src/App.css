@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(168, 175, 173, 0.507);
+  
+}
+input{
+  padding: 0.8em;
+  border-radius: 1em;
+  border: none;
+  margin: 1.4rem;
+  
+}
+label{
+  font-size: 1.2rem;
+}
+
+.product-component{
+  background-color: #ffd;
+  padding: 2rem;
+  width:20%;
+  border-radius: 1rem;
+}
+.product-list-component{
+  display: flex;
+  width: 100%;
+  column-gap: 2em;
+}
