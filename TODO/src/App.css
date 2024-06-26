@@ -1,0 +1,76 @@
+body{
+    background-color: aliceblue;
+}
+.todos__content{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+    
+}
+.todos__form{
+    display: flex;
+    column-gap: 1rem;
+  
+    flex-direction: row;
+    
+}
+.todos__form button{
+    background-color:#cc1;
+}
+.todos__forms{
+    display: flex;
+    row-gap: 1rem;
+    background-color: #8fbbcc;
+    padding: 2rem;
+    border-radius: .4rem;
+    flex-direction: column;
+    
+}
+input{
+    padding: 0.6em;
+    border-radius: .8em;
+    border:none
+}
+button{
+    padding: 0.8em;
+    border: none;
+    border-radius:0.5rem;
+}
+.todos__todo{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.todo__buttons{
+    display: flex;
+    column-gap: 2rem;
+    
+}
+.todo__title{
+    font-size: 1.5rem;
+    color: #f0f8ff;
+ 
+}
+.todo__delete{
+   
+    color: #f0f8ff;
+    background-color: #170529;
+}
+.todo__toggle{
+   background-color: rgb(53, 41, 41);
+    color: #f0f8ff;
+}
+button:hover{
+    opacity: 0.5;
+    
+}
+h2{
+    color: rgb(21, 2, 39);
+}
